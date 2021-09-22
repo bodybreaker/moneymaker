@@ -31,6 +31,11 @@ pip install ipykernel
 python -m ipykernel install --user --name moneymaker --display-name "Python (moneymaker)"
 ```
 
+5. pyqt5, pyqtwebengine 설치
+```
+pip install pyqt5==5.12.1 pyqtwebengine==5.12.1
+```
+
 - (옵션) 가상환경 파일로 내보내기[특정 가상환경 활성화 이후]
 ```
 conda env export > environment.yaml
